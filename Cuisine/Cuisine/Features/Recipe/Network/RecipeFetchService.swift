@@ -63,3 +63,23 @@ class RecipeFetchService: RecipeFetching {
 class RecipeFetchServiceInvalidURL: RecipeFetchService {
     override func constructURL() -> URL? { nil }
 }
+
+class RecipeFetchServiceEmptyData: RecipeFetchService {
+    override func constructURL() -> URL? {
+        var components = URLComponents()
+        components.scheme = "https"
+        components.host = "d3jbb8n5wk0qxi.cloudfront.net"
+        components.path = "/recipes-empty.json"
+        return components.url
+    }
+}
+
+class RecipeFetchServiceInvalidJSON: RecipeFetchService {
+    override func constructURL() -> URL? {
+        var components = URLComponents()
+        components.scheme = "https"
+        components.host = "d3jbb8n5wk0qxi.cloudfront.net"
+        components.path = "/recipes-malformed.json"
+        return components.url
+    }
+}

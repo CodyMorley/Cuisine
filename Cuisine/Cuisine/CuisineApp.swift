@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+// For end to end testing of bad-path scenarios, use RecipeFetchServiceEmptyData() or RecipeFetchServiceInvalidJSON() instead.
+
 @main
 struct CuisineApp: App {
     var body: some Scene {

@@ -7,7 +7,7 @@ Cuisine uses a sleek, modern interface to guide a user seamlessly through a list
 <img src="https://github.com/user-attachments/assets/e05407c6-b260-482e-bea7-0252130a54b7" width=25% height=25%>
 <img src="https://github.com/user-attachments/assets/e1992680-7aa6-4de6-8a4f-162724d6ebd8" width=25% height=25%>
 
-Clicking any recipe brings the user to a simple detail screen with a larger, high quality resoloution image, along with a tag bearing the national origin of the recipe. This screen includes tappable links for both video and writeen recipes where available. No buttons will appear for unavailable links, reducing user confusion and friction.
+Clicking any recipe brings the user to a simple detail screen with a larger high resoloution image, along with a tag bearing the national origin of the recipe. This screen includes tappable links for both video and written recipes where available. No buttons will appear for unavailable links, reducing user confusion and friction.
 
 <img src="https://github.com/user-attachments/assets/112898ab-944e-4816-8047-e8c0ec54bfde" width=25% height=25%>
 <img src="https://github.com/user-attachments/assets/135f87da-d3ab-4c12-83df-0b6f9e6950b5" width=25% height=25%>
